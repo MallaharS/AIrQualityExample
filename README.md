@@ -33,7 +33,3 @@ The script prints a table of all stations and their pollutant readings, then dis
 ## A note on the data
 
 OpenAQ returns each station's *most recent* reading, and some stations report more frequently than others — so the readings are not all from the same moment in time. This is a snapshot comparison of each station's latest available value, not a synchronized measurement. A natural next step would be to pull a fixed historical time window per station for a true like-for-like comparison.
-
-## Skills demonstrated
-
-REST API integration with authentication, joining nested JSON responses, data cleaning and handling of missing/uneven data with Pandas, and data visualization with contextual reference lines.
